@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/xin/x1',function (){
    return view('xin.x1');
 });
+
+Route::get('/xin/x2',function (){
+    return view('xin.x2');
+});
