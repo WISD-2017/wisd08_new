@@ -34,3 +34,11 @@ Route::get('/su/s1',function (){
 Route::get('/su/s2',function (){
     return view('su.s2');
 });
+
+Route::get('/wei/w1',function (){
+    return view('wei.w1');
+});
+
+Route::get('/wei/w2',function (){
+    return view('wei.w2');
+});
