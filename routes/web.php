@@ -26,3 +26,7 @@ Route::get('/xin/x1',function (){
 Route::get('/xin/x2',function (){
     return view('xin.x2');
 });
+
+Route::get('/xin/x3',function (){
+    return view('xin.x3');
+});
