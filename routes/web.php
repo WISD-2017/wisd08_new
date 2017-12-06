@@ -27,10 +27,10 @@ Route::get('/xin/x2',function (){
     return view('xin.x2');
 });
 
-<<<<<<< HEAD
 Route::get('/xin/x3',function (){
     return view('xin.x3');
-=======
+});
+
 Route::get('/su/s1',function (){
     return view('su.s1');
 });
@@ -45,5 +45,4 @@ Route::get('/wei/w1',function (){
 
 Route::get('/wei/w2',function (){
     return view('wei.w2');
->>>>>>> 699651e4c486f545fb0a06dd50f17db85d2e69dc
 });
